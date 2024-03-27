@@ -5,7 +5,6 @@ const fs = require("fs");
 const { loading } = require('./lib/loading.js');
 const { handleOpenAI, handleSetOpenAI, handleGetApiKey, handleBotRuntime, handlePing } = require('./lib/fitur.js');
 const { sendMenu } = require('./lib/menu.js');
-
 const setting = require("./apikey.json");
 const settings = require("./settings.json");
 
