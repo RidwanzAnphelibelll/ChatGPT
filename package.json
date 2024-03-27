@@ -1,0 +1,16 @@
+{
+  "name": "ChatGPT",
+  "main": "ridwanz.js",
+  "scripts": {
+    "start": "node ridwanz.js"
+  },
+  "author": "RidwanzSaputra",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "openai": "^3.2.1",
+    "moment-timezone": "^0.5.38",
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
