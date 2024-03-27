@@ -40,7 +40,6 @@ bot.on('message', async (msg) => {
                     bot.sendMessage(chatId, '@RidwanzSaputra');
                     break;
 
-                case "ai":
                 case "chatgpt":
                 case "openai":
                     bot.sendChatAction(chatId, 'typing');
